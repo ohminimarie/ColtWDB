@@ -9,4 +9,6 @@
     body {
       background: url(http://www.graphicsbeam.com/wp-content/uploads/2013/03/Drawn-Wood-Grain-Texture-520x301.jpg);
       background-repeat: no-repeat;
+      background-size: cover;
+      
     }
