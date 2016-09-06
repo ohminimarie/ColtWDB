@@ -1,6 +1,6 @@
 /*Elements*/
 li {
-  
+
 }
 
 /*class*/
@@ -19,7 +19,9 @@ li {
 }
 
 /*Descendant Selector*/
-
+li a {
+  color: red;
+}
 
 /*Adjacent Selector*/
 
