@@ -1,6 +1,6 @@
 /*Elements*/
 li {
-  background: yellow;
+  
 }
 
 /*class*/
@@ -14,7 +14,9 @@ li {
 }
 
 /*star*/
-
+* {
+  border: 1px solid lightgrey;
+}
 
 /*Descendant Selector*/
 
