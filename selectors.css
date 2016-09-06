@@ -29,6 +29,8 @@ h4 + ul {
 }
 
 /*Attribute Selector*/
-
+a[href="http://www.google.com"] {
+  background: blue;
+}
 
 /*nth of types*/
