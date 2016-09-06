@@ -34,3 +34,6 @@ a[href="http://www.google.com"] {
 }
 
 /*nth of types*/
+ul:nth-of-type(3) {
+  background: purple;
+}
