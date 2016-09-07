@@ -1,5 +1,6 @@
 div {
   width: 100px;
+  float: left;
 
 }
 
@@ -9,6 +10,6 @@ div {
 }
 
 #two {
-  background-color: purple
+  background-color: purple;
 
 }
