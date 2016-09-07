@@ -1,9 +1,9 @@
-body{
-  text-align: center;
+body {
+    text-align: center;
 }
 
 table {
-  margin: 0 auto;
+  margin: auto;
 }
 
 td {
@@ -11,22 +11,13 @@ td {
   height: 100px;
 }
 
-/*ORDER: top right bottom left
-for verticalMiddle: left & right */
-.verticalMiddle {
-  border-width: 0px 1px 0px 1px;
-  border-style: solid;
-  border-color: black;
+.vertical {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  
 }
 
-/*ORDER: top right bottom left
-for horizontalMiddle: top & bottom*/
-.horizontalMiddle td {
-  border-width: 1px 0px 1px 0px;
-  border-style: solid;
-  border-color: black;
-}
-
-#middleBox {
-  border: 1px solid black;
+.horizontal td {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
