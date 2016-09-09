@@ -3,8 +3,18 @@
   padding-top: 25%;
 }
 
+html {
+  height: 100%;
+}
 body {
     background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?dpr=2&fit=crop&fm=jpg&h=775&q=50&w=1450);
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    font-family: Lato;
+    color: white;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 5em;
 }
