@@ -34,6 +34,10 @@ alert("Hello everyone!");
 //Strings have a length property
 "hello world".length    //11
 
+//Access individual characters using [] and an index
+"hello"[0]  //"h"
+"hello"[4]  //"o"
+
 //Booleans
 true
 false
