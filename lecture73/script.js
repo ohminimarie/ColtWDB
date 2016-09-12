@@ -11,6 +11,12 @@ alert("Hello everyone!");
 4 + 10      //14
 1/5         //0.2
 
+//Modulo - remainder operator
+10 % 3      //1
+24 % 2      //0
+15 % 11     //4
+
+
  //Strings
  "Hello World"
  "43"
