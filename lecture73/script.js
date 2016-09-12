@@ -31,6 +31,9 @@ alert("Hello everyone!");
 "Singing \"Do wah diddy, diddy, dum diddy do\" "
 "This is a backslash: \\"
 
+//Strings have a length property
+"hello world".length    //11
+
 //Booleans
 true
 false
