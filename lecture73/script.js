@@ -10,3 +10,7 @@ alert("Hello everyone!");
  //Strings
  "Hello World"
  "43"
+
+ //Booleans
+ true
+ false
