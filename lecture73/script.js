@@ -16,15 +16,18 @@ alert("Hello everyone!");
 24 % 2      //0
 15 % 11     //4
 
+//Strings
+"Hello World"
+"43"
 
- //Strings
- "Hello World"
- "43"
+//Single or double quotes
+"Hello World"
+'Hello World'
 
- //Booleans
- true
- false
+//Booleans
+true
+false
 
- //null and undefined
- undefined
- null
+//null and undefined
+undefined
+null
