@@ -66,3 +66,7 @@ null
 // 5 % 3 = 5/3 = 1.67
 // 3 * 1.67 = 2
 // Modulo is 2
+
+//Variables are simply containers that store values
+//They follow this pattern:
+var yourVariableName = yourValue;
