@@ -27,6 +27,10 @@ alert("Hello everyone!");
 //Concatenation
 "charlie" + "brown"   //"charliebrown"
 
+//Escape Characters start with "\"
+"Singing \"Do wah diddy, diddy, dum diddy do\" "
+"This is a backslash: \\"
+
 //Booleans
 true
 false
