@@ -45,3 +45,24 @@ false
 //null and undefined
 undefined
 null
+
+//Primitives Exercises
+//1.
+100 % 3
+// 100/3 = 33.3 
+// 33.3 * 3 = 99
+// 100 - 99 = 1
+// Modulo = 1
+
+//2.
+("blah" + "blah")[6]
+// "blah" + "blah" = "blahblah"
+// "blahblah"[6] = "a"
+
+//3.
+"hello".length % "hi\\".length
+// "hello".length = 5
+// "hi\\".length = 3
+// 5 % 3 = 5/3 = 1.67
+// 3 * 1.67 = 2
+// Modulo is 2
