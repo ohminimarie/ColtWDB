@@ -6,3 +6,7 @@ alert("Hello everyone!");
  4
  9.3
  -10
+
+ //Strings
+ "Hello World"
+ "43"
