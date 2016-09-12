@@ -14,3 +14,7 @@ alert("Hello everyone!");
  //Booleans
  true
  false
+
+ //null and undefined
+ undefined
+ null
