@@ -24,6 +24,9 @@ alert("Hello everyone!");
 "Hello World"
 'Hello World'
 
+//Concatenation
+"charlie" + "brown"   //"charliebrown"
+
 //Booleans
 true
 false
