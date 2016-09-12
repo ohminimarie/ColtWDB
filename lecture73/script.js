@@ -7,6 +7,10 @@ alert("Hello everyone!");
  9.3
  -10
 
+// Can do math
+4 + 10      //14
+1/5         //0.2
+
  //Strings
  "Hello World"
  "43"
