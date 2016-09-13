@@ -87,3 +87,14 @@ num + 3 + 10      //50
 var name = "Robert";
 name = "Bob";
 
+//The two other primitives are null and undefined
+
+//variables that are declared bu not
+//initialized are undefined
+//The following variables are undefined:
+var name;
+var age;
+
+//null is "explicitly nothing"
+var currentPlayer = "charlie";
+currentPlayer = null  //game over
