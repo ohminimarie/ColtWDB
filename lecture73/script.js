@@ -98,3 +98,13 @@ var age;
 //null is "explicitly nothing"
 var currentPlayer = "charlie";
 currentPlayer = null  //game over
+
+//js built in methods
+//alert, prompt, console.log
+clear() //clearing console
+alert("Hello There!!");
+console.log("Hello from the console!");
+prompt("what is your name?");
+
+var userName = prompt("What is your name?");
+
