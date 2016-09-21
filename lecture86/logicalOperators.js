@@ -41,4 +41,9 @@ var y = 8;
 // NaN
 // Everything else is truthy
 
-//
+//Exercise 3
+var str = ""
+var msg = "haha!"
+var isFunny = "false"
+
+!((str || msg) && isFunny) //false
