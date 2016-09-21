@@ -4,7 +4,8 @@
 var secretNumber = 4;
 
 //ask user for guess
-var guess = Number(prompt("Guess a number"));
+var stringGuess = prompt("Guess a number");
+var guess = Number(stringGuess);
 // alert(guess);
 
 //check if guess is right
