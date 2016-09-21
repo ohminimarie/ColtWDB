@@ -22,6 +22,21 @@ if (age < 0) {
   console.log("Happy 21st Birthday!!");
 } else if(age % 2 !== 0) {
   console.log("Your age is odd!");
-} else if(age) {
+} else if(Math.sqrt(age) % 1 === 0) {
   console.log("Perfect Square!");
 }
+
+//Given Solution
+// // If age is negative  
+// if(age < 0){
+//   console.log("Come back once you're out of the womb");  
+// }
+// // If age is 21
+// if(age === 21){
+//   console.log("Happy 21st Birthday!");
+// }
+// //If age is odd
+// //(not evenly divisible by two)
+// if(age % 2 !== 0) {
+//   console.log("Your age is odd!");  
+
