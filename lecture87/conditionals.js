@@ -38,5 +38,9 @@ if (age < 0) {
 // //If age is odd
 // //(not evenly divisible by two)
 // if(age % 2 !== 0) {
-//   console.log("Your age is odd!");  
-
+//   console.log("Your age is odd!"); 
+// 
+//// If age is a perfect square
+// if(age % Math.sqrt(age) === 0) {
+//   console.log("Your age is a perfect square!");
+// }
