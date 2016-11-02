@@ -22,3 +22,14 @@ while(num <= 20) {
   }
   num++;
 }
+
+// Exercise 3
+// Code is an infinite loop. the var num will always be less than 150
+// So the while loop will never stop
+
+var num = 100;
+
+while(num < 150) {
+  console.log(num + 1);
+  num--;
+}
