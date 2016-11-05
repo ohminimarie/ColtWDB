@@ -5,3 +5,11 @@ function sing() {
 
 setInterval(sing, 1000);
 
+clearInterval(2);
+
+setInterval(function() {
+  console.log("I am an anonnymous function!");
+  console.log("THIS IS AWESOME!");
+}, 2000);
+
+clearInterval(3);
