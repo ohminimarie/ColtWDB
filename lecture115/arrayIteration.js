@@ -41,3 +41,23 @@ for(var i = 0; i < colors.length; i++) {
 colors.forEach(function(color){
   console.log(color);
 });
+
+//Lecture 116 Quick Array Iteration Challenge
+var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+var colors = ["red", "orange", "yellow", "green"]
+
+numbers.forEach(function(color){
+  if(color% 3 === 0) {
+    console.log(color);
+  }
+});
+
+//prints out the numbers divisible by 3
+
+for(var i = 0; i< numbers.length; i++) {
+  if(i % 3 === 0){
+    console.log(i);
+  }
+  i++;
+};
+
