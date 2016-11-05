@@ -41,10 +41,25 @@ factorial(0); //1
   // var result = 1;
      //calculate factorial and store value in result
   // for(var i = 1; i <= num; i++){
-  //   result = result * i;
+  //   result = result *= i;
   // }
+  //return the result variable
+    //return result;
 // }
 
+// function factorial(num) {
+//   if (num === 0) {
+//     return 1;
+//   }
+//   //define a result variable
+//   var result = num;
+//   //calculate factorial and store value in result
+//   for(var i = num - 1; i >= 1; i--){
+//     result *= i;
+//   }
+//   //return the result variable
+//   return result;
+// }
 
 //kebabToSnake()
 //Replace - with _
@@ -56,6 +71,9 @@ kebabToSnake("hello-world"); //"hello_world"
 kebabToSnake("dogs-are-awesome"); //"dogs_are_awesome"
 kebabToSnake("blah"); //"blah"
 
-
+// function kebabToSnake(str) {
+//   var newStr = str.replace(/-/g, "_");
+//   return newStr;
+// }
 
 
