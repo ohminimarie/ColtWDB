@@ -1,14 +1,7 @@
 //isEven()
 function isEven(x) {
-  if (x % 2 === 0) {
-    return true;
-  } else {
-    return false;
-  }
+  return num % 2 === 0;
 }
-// function isEven(x) {
-// return x % 2 === 0;  
-//}
 
 isEven(4); //true
 isEven(21); //false
@@ -35,16 +28,6 @@ factorial(5); //120
 factorial(2); //2
 factorial(10); //3628800
 factorial(0); //1
-
-//function factorial(num){
-  //define a result variable
-  // var result = 1;
-     //calculate factorial and store value in result
-  // for(var i = 1; i <= num; i++){
-  //   result = result * i;
-  // }
-// }
-
 
 //kebabToSnake()
 //Replace - with _
