@@ -25,3 +25,20 @@ var colors = ["red", "orange", "yellow"];
 colors[1]; //"orange"
 colors[3] = "green"; //colors = ["red", "orange", "yellow", "green"]
 colors[3] = "dark green"; //updates green to dark green
+
+
+//we can initialize an empty array two ways:
+var friends = []; 
+var friends = new Array() //uncommon
+
+//Arrays can hold any type of data
+var random_collection = [49, true, "Hermione", null];
+
+//Arrays have a length property
+var nums = [45, 37, 89, 24];
+nums.length //4
+
+var dogs = ["Rusty", "Wyatt", "Olly"];
+dogs.length //3
+dogs[2]; //"Olly"
+
