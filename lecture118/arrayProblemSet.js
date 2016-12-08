@@ -53,6 +53,16 @@ sumArray([-5, 100]);        //95
 
 //Write a function max() that accepts an array of numbers and returns 
 //the maximum number in the array
+function max(subjectArray) {
+  var biggestNumber = 0;
+  subjectArray.forEach(function(x){
+    if(x> biggestNumber) {
+      biggestNumber = x;
+    }
+  });
+  return biggestNumber;
+}
+
 max([1, 2, 3]);       //3
 max([10, 3, 10, 4]);  //10
 max([-5, 100]);       //100
