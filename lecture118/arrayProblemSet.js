@@ -39,6 +39,14 @@ isUniform(["b", "b", "b"]);   //true
 
 //Write a function sumArray() that accepts an array of numbers and
 //returns the sum of all numbers in the array
+function sumArray(subjectArray) {
+  var sum = 0;
+  subjectArray.forEach(function(x) {
+    sum = sum + x;
+  });
+  return sum;
+}
+
 sumArray([1, 2, 3]);        //6
 sumArray([10, 3, 10, 4]);   //27
 sumArray([-5, 100]);        //95
