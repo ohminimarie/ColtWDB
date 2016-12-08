@@ -17,6 +17,13 @@ function printReverse(subjectArray){
   return reverseArray;
 };
 
+//colt's solution
+function printReverse(arr){
+  for(var i = arr.length - 1; i >= 0; i--) {
+    console.log(arr[i]);
+  }
+}
+
 printReverse([1,2,3,4]);
 //4
 //3
@@ -41,6 +48,17 @@ function isUniform(subjectArray) {
   return allIsSame;
 };
 
+//colt's solution
+function isUniform(arr){
+  var first = arr[0];
+  for(var i = 1; i < arr.length; i++){
+    if(arr[i] !== first) {
+      return false;
+    }
+  }
+  return true;
+}
+
 isUniform([1, 1, 1, 1]);      //true
 isUniform([2, 1, 1, 1]);      //false
 isUniform(["a", "b", "p"]);   //false
@@ -56,6 +74,15 @@ function sumArray(subjectArray) {
   return sum;
 }
 
+//colt's solution
+function sumArray(arr){
+  var total = 0;
+  arr.forEach(function(element){
+    total += element;
+  });
+  return total;
+}
+
 sumArray([1, 2, 3]);        //6
 sumArray([10, 3, 10, 4]);   //27
 sumArray([-5, 100]);        //95
@@ -65,11 +92,22 @@ sumArray([-5, 100]);        //95
 function max(subjectArray) {
   var biggestNumber = 0;
   subjectArray.forEach(function(x){
-    if(x> biggestNumber) {
+    if(x > biggestNumber) {
       biggestNumber = x;
     }
   });
   return biggestNumber;
+}
+
+//colt's solution
+function max(arr){
+  var max = arr[0];
+  for(var i = 1; i < arr.length; i++){
+    if(arr[i] > max) {
+      max = arr[i];
+    }
+  }
+  return max;
 }
 
 max([1, 2, 3]);       //3
