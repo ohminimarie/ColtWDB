@@ -2,12 +2,21 @@
 //and prints out the elements in the array in reverse order
 //(Don't actually reverse the array itself)
 
-function printReverse(array){
-  var reverse = array.reverse();
-  reverse.forEach(function(x){
-    console.log(x);
+// function printReverse(array){
+//   var reverse = array.reverse();
+//   reverse.forEach(function(x){
+//     console.log(x);
+//   });
+// }
+
+function printReverse(subjectArray){
+  var reverseArray = [];
+  subjectArray.forEach(function(x){
+    reverseArray.unshift(x);
   });
-}
+  return reverseArray;
+};
+
 printReverse([1,2,3,4]);
 //4
 //3
