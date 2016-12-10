@@ -106,15 +106,34 @@ var junkObject = {
 
 //Comparing Objects and Arrays
 //Initializing arrays vs objects
+//array
 var dogs = ["Rusty", "Lucky", "Bubba"]; 
+//objects
 var dog = {
   name: "Bubba",
   breed: "Lab"
 }
 
 //Retrieving data from arrays vs objects
+//array
+dogs[1];
+//objects
+dog["name"];
+//OR
+dog.name
 
+//ADDING DATA after the fact
+//array
+dogs.push("Wyatt")
+//objects
+dog["age"] = 6;
+dog.age = 6;
 
+//UPDATE data
+//array
+dogs[1] = "Lucy"
+//object
+dog.breed = "Black Lab"
 
 
 
