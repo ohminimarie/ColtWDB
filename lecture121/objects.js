@@ -135,6 +135,24 @@ dogs[1] = "Lucy"
 //object
 dog.breed = "Black Lab"
 
+var posts = [
+  {
+    title: "Cats are mediocre",
+    author: "Colt",
+    comments: ["Awesome post", "terrible post"]
+  },
+  {
+    title: "Cats are actually awesome",
+    author: "Cat Luvr",
+    comments: ["<3", "Go to hell I hate you"]
+  }
+]
+
+posts //[Object, Object]
+posts.length  //2
+posts[0].title  //"Cats are mediocre"
+posts[1].comments[1]  //"Go to hell I hate you"
+
 
 
 
