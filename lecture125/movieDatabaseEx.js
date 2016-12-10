@@ -45,3 +45,21 @@ movies.forEach(function(movie){
   result += movie.rating + " stars";
   console.log(result);
 })
+
+//refactor
+
+function buildString(movie){
+    var result = "You have ";
+  if(movie.hasWatched){
+    result +="watched ";
+  } else {
+    result += "not seen ";
+  }
+  result += "\"" + movie.title + "\" - ";
+  result += movie.rating + " stars";
+  return result;
+}
+
+movies.forEach(function(movie){
+  console.log(buildString(movie));
+});
