@@ -69,7 +69,26 @@ dog.age += 1; // 5
 dog["name"] = "Tater";  // "Tater"
 
 
+//Creating Objects
+//Like arrays, there are a few methods of initializing objects
+//make an empty object and then add to it
+var person = {};
+person.name = "Travis";
+person.age = 21;
+person.city = "LA";
 
+//all at once
+var person = {
+  name: "Travis";
+  age: 21,
+  city: "LA";
+};
+
+//another way of initializing an Object
+var person = new Object();
+person.name = "Travis";
+person.age = 21;
+person.city = "LA";
 
 
 
