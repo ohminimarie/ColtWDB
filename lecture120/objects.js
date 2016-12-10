@@ -90,7 +90,19 @@ person.name = "Travis";
 person.age = 21;
 person.city = "LA";
 
+//Objects can hold all sorts of data
 
+var junkObject = {
+  age: 57,
+  color: "purple",
+  isHungry: true,
+  friends: ["Horatio", "Hamlet"],
+  pet: {
+    name: "Rusty",
+    species: "Dog",
+    age: 2
+  }
+};
 
 
 
