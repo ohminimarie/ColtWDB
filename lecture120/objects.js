@@ -57,6 +57,18 @@ someObject.fav color    //INVALID
 someObject["fav color"] //VALID
 
 
+//UPDATING DATA
+//Just like an array: access a property and reassign it
+//to update age
+person["age"] +=1;
+//to update city
+person.city = "London"
+
+dog.age = 4;  // 4
+dog.age += 1; // 5
+dog["name"] = "Tater";  // "Tater"
+
+
 
 
 
