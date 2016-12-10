@@ -42,6 +42,19 @@ dog.age           // 3
 
 //RETRIEVING DATA
 //There are a few differences between the 2 notations
+//you cannot use dot notation if the property starts with a number
+
+someObject.1blah    //INVALID
+someObject["1blah"] //VALID!
+
+//you can lookup using a variable with bracket notation
+var str = "name";
+someObject.str  //doesn't look for "name"
+someObject[str] // does evaluate str and looks for "name"
+
+//you cannot use dot notation for property names with spaces
+someObject.fav color    //INVALID
+someObject["fav color"] //VALID
 
 
 
