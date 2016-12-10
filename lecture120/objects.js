@@ -104,6 +104,18 @@ var junkObject = {
   }
 };
 
+//Comparing Objects and Arrays
+//Initializing arrays vs objects
+var dogs = ["Rusty", "Lucky", "Bubba"]; 
+var dog = {
+  name: "Bubba",
+  breed: "Lab"
+}
+
+//Retrieving data from arrays vs objects
+
+
+
 
 
 
