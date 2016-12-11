@@ -19,6 +19,6 @@ var elieCalc = colt.addNumbers.bind(elie,1, 2, 3, 4) //function(){}....
 elieCalc()  //Elie just calculated 10
 
 //With bind - we do not need to know all the arguments up front!
-
+//partial application
 var elieCalc2 = colt.addNumbers.bind(elie,1,2)  //function(){}....
 elieCalc(3,4) //Elie just calculated 10
